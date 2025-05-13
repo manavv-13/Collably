@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .text-outline-black {
+    color: white;
+    -webkit-text-stroke: 2px black;
+    paint-order: stroke fill;
+  }
+}
+
+.annie-use-your-telescope-regular {
+  font-family: "Annie Use Your Telescope", serif;
+  font-style: normal;
+}
+
+.archivo-narrow-font {
+  font-family: "Archivo Narrow", serif;
+  font-style: normal;
+}
+
+body {
+  background-image: url("/Background.png");
+  background-size: cover; /* Ensures full coverage without distortion */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh; /* Covers the full viewport height */
+  width: 100vw; /* Ensures it takes full width */
+  overflow-x: hidden;
+}

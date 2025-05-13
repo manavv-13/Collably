@@ -61,7 +61,7 @@ A full-stack MERN application that bridges the gap between **influencers** and *
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/CollabSphere.git
+git clone https://github.com/manavv-13/Collably.git
 cd Collably
 cd backend
 npm install
